@@ -17,12 +17,43 @@
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css)
 ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase)
 
-## 📈 GitHub Stats
+const awards = [
+  {
+    date: "2024年8月",
+    title: "Blockchain Hackathon",
+    award: "🥇 最優秀賞",
+    description: "ブロックチェーンを活用した予約譲渡システムを提案・実装"
+  },
+  {
+    date: "2024年11月",
+    title: "セキュリティコンテスト",
+    award: "🥈 準優勝",
+    description: "脆弱性診断ツールの開発による評価"
+  },
+  {
+    date: "2025年3月",
+    title: "データ分析コンペ",
+    award: "🏅 特別賞",
+    description: "SNSネットワークの構造分析・可視化"
+  },
+];
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kina-dev&show_icons=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kina-dev&layout=compact&theme=radical" />
-</p>
+export default function AwardTimeline() {
+  return (
+    <div className="max-w-4xl mx-auto my-10 px-4">
+      <h2 className="text-3xl font-bold text-purple-800 mb-8 text-center">🏆 受賞歴・コンテスト実績</h2>
+      <div className="space-y-8">
+        {awards.map((item, i) => (
+          <div key={i} className="bg-white shadow-md rounded-xl p-6 border-l-4 border-purple-400">
+            <h3 className="text-xl font-semibold text-purple-700">{item.date} - {item.title}</h3>
+            <p className="text-lg font-medium text-green-600 mt-1">{item.award}</p>
+            <p className="text-gray-700 mt-2">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 ## 🔗 リンク
 
