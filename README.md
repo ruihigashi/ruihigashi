@@ -1,4 +1,4 @@
-<h1 align="center">こんにちは、ルイです 👋</h1>
+<h1 align="center">こんにちは、るいです 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?center=true&lines=Passionate+Programmer;Fullstack+Engineer;React+%26+Java+Lover" />
