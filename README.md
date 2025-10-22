@@ -12,4 +12,4 @@
 
 ##  リンク
 
-- [ポートフォリオサイト]([https://higashi-rui-portfolio.netlify.app/])
+- [ポートフォリオサイト](https://higashi-rui-portfolio.netlify.app/)
